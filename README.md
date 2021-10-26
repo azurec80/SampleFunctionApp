@@ -21,18 +21,20 @@ Request Body:
 	"Operation": "ADD"
 }
 
-Num1 - int
-Num2 - int
-Operation - enum with members [ADD, SUB, MUL, DIV]
+Num1 - int <br />
+Num2 - int <br />
+Operation - enum with members [ADD, SUB, MUL, DIV] <br />
 
 
 Response:
 The {operation} of {num1} and {num2} is: {result}
 
 
-Note: Add validations to avoid incorrect operations like division by zero or an invalid operation input.
-Eg of valid operation input: ADD
-Eg of invalid operation input: add, addition, sum
+Note: Add validations to avoid incorrect operations like division by zero or an invalid operation input. <br />
+
+Eg of valid operation input: ADD <br />
+
+Eg of invalid operation input: add, addition, sum <br />
 
 
 Branch syntax for raising a PR: calc/{alias} 
