@@ -33,3 +33,6 @@ The {operation} of {num1} and {num2} is: {result}
 Note: Add validations to avoid incorrect operations like division by zero or an invalid operation input.
 Eg of valid operation input: ADD
 Eg of invalid operation input: add, addition, sum
+
+
+Branch syntax for raising a PR: calc/{alias} 
