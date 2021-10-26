@@ -16,8 +16,8 @@ HTTP Method: POST
 Request Body:
 
 {
-	"Num1": 10
-	"Num2": 20
+	"Num1": 10,
+	"Num2": 20,
 	"Operation": "ADD"
 }
 
