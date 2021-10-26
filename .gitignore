@@ -370,3 +370,4 @@ FodyWeavers.xsd
 /SampleFunctionApp/Properties/ServiceDependencies/SampleSumHttpTrigger - Zip Deploy/storage1.arm.json
 /SampleTimerTrigger/Properties/serviceDependencies.SampleTimerTrigger - Zip Deploy.json
 /SampleFunctionApp/Properties/serviceDependencies.SampleSumHttpTrigger - Zip Deploy.json
+/SampleTimerTrigger/Properties/ServiceDependencies/SampleTimerTrigger - Zip Deploy/profile.arm.json

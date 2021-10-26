@@ -8,9 +8,9 @@ namespace SampleTimerTrigger
     public static class Function1
     {
         [FunctionName("Function1")]
-        public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
+        public static void Run([TimerTrigger("%TimerInterval%")]TimerInfo myTimer, ILogger log)
         {
-            log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
+            log.LogInformation($"C# Timer trigger function for interval executed at: {DateTime.Now}");
         }
     }
 }
